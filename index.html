@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Barbería - Servicios Profesionales</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Calendly -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-cut"></i>
+                    <span class="business-name">Barbería</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Inicio</a></li>
+                    <li><a href="#about" class="nav-link">Nosotros</a></li>
+                    <li><a href="#services" class="nav-link">Servicios</a></li>
+                    <li><a href="#gallery" class="nav-link">Galería</a></li>
+                    <li><a href="#team" class="nav-link">Nuestro Equipo</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reseñas</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                    <li><a href="#book" class="btn btn-primary">Reservar Cita</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title business-name">Barbería</h1>
+            <p class="hero-subtitle">Donde el Estilo se Encuentra con la Tradición</p>
+            <p class="hero-description">Servicios premium de cuidado personal para el caballero moderno</p>
+            <div class="hero-buttons">
+                <a href="#book" class="btn btn-primary btn-lg">Reservar Cita</a>
+                <a href="#services" class="btn btn-secondary btn-lg">Nuestros Servicios</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nosotros</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Creando Estilo Desde el Primer Día</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-store"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Bienvenido a <span class="business-name">Nuestra Barbería</span></h3>
+                    <p>En <span class="business-name">nuestra barbería</span>, creemos que un gran corte de cabello es más que un servicio—es una experiencia. Nuestros barberos expertos combinan técnicas tradicionales con tendencias modernas para ofrecer resultados excepcionales en cada visita.</p>
+                    <p>Con años de experiencia en el cuidado masculino, nos enorgullecemos de nuestra atención al detalle, servicio personalizado y de crear un ambiente acogedor donde puedes relajarte y salir luciendo increíble.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Excelencia Profesional</h4>
+                                <p>Barberos certificados con años de experiencia</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horario Flexible</h4>
+                                <p>Abierto 7 días a la semana para tu conveniencia</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h4>Servicio Premium</h4>
+                                <p>Productos de calidad y resultados excepcionales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Servicios Premium de Cuidado Personal</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Corte Clásico</h3>
+                    <p>Técnicas tradicionales de barbería para un look atemporal</p>
+                    <span class="price">$25</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-scissors"></i>
+                    </div>
+                    <h3>Estilo Moderno</h3>
+                    <p>Cortes contemporáneos y estilismo para el hombre moderno</p>
+                    <span class="price">$30</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Recorte y Diseño de Barba</h3>
+                    <p>Servicio experto de arreglo y diseño de barba</p>
+                    <span class="price">$20</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Afeitado con Toalla Caliente</h3>
+                    <p>Lujoso afeitado tradicional con navaja</p>
+                    <span class="price">$35</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Corte Infantil</h3>
+                    <p>Cortes divertidos y amigables para niños</p>
+                    <span class="price">$18</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Paquete Premium</h3>
+                    <p>Corte, arreglo de barba y afeitado con toalla caliente</p>
+                    <span class="price">$65</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Trabajo</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Mira Nuestra Artesanía</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Galería de Cortes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Estilo de Barba</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Cortes Modernos</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Estilo Clásico</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Cortes Degradados</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Arreglo Personal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Conoce Nuestro Equipo</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Barberos Profesionales Calificados</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Eder Martínez</h3>
+                    <p class="member-title">Maestro Barbero y Propietario</p>
+                    <p class="member-bio">Más de 10 años de experiencia en barbería clásica y moderna</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Carlos Rodríguez</h3>
+                    <p class="member-title">Barbero Senior</p>
+                    <p class="member-bio">Especialista en degradados y estilos contemporáneos</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Miguel Santos</h3>
+                    <p class="member-title">Barbero</p>
+                    <p class="member-bio">Experto en barbería tradicional y afeitados con toalla caliente</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Reseñas Reales de Clientes Reales</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"¡La mejor barbería de la ciudad! Eder y su equipo siempre brindan un servicio excepcional. He venido aquí por años y no iría a ningún otro lugar."</p>
+                    <div class="testimonial-author">
+                        <strong>Juan Davis</strong>
+                        <span>Cliente Regular</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Ambiente profesional y gran atención al detalle. Realmente se toman su tiempo para asegurarse de que obtengas el corte perfecto. ¡Altamente recomendado!"</p>
+                    <div class="testimonial-author">
+                        <strong>Miguel Morales</strong>
+                        <span>Cliente Regular</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"¡Servicio increíble! A mi hijo le encanta venir aquí para sus cortes de cabello. Los barberos son pacientes, hábiles y crean un ambiente acogedor."</p>
+                    <div class="testimonial-author">
+                        <strong>Sara González</strong>
+                        <span>Cliente</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="testimonial-btn" data-slide="0"></button>
+                <button class="testimonial-btn" data-slide="1"></button>
+                <button class="testimonial-btn" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book" class="booking section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Reserva Tu Cita</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Agenda Tu Próxima Visita</p>
+            </div>
+            <div class="booking-content">
+                <!-- Calendly inline widget -->
+                <div class="calendly-widget-wrapper">
+                    <div class="calendly-inline-widget"
+                         data-url="https://calendly.com/borisesgal/haircut?background_color=1a1a1a&text_color=ffffff&primary_color=d4af37"
+                         style="min-width:320px;height:700px;">
+                    </div>
+                </div>
+                <div class="booking-info">
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horario de Atención</h3>
+                        <ul>
+                            <li><strong>Lunes - Viernes:</strong> 9:00 AM - 8:00 PM</li>
+                            <li><strong>Sábado:</strong> 9:00 AM - 7:00 PM</li>
+                            <li><strong>Domingo:</strong> 10:00 AM - 5:00 PM</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-info-circle"></i>
+                        <h3>Información de Reservas</h3>
+                        <p>Aceptamos clientes sin cita, pero las citas son recomendadas para asegurar disponibilidad. Confirmaremos tu cita por teléfono o correo electrónico dentro de 24 horas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visítanos Hoy</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Ponte en Contacto</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p class="contact-address">Calle Principal 123<br>Zona Centro<br>Ciudad, Estado</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+15551234567" class="contact-phone">(555) 123-4567</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Correo</h3>
+                            <p><a href="mailto:info@barberia.com" class="contact-email">info@barberia.com</a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Ubicación del Mapa</p>
+                        <small>Reemplazar con Google Maps embed</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-cut"></i> <span class="business-name">Barbería</span></h3>
+                    <p>Tu destino confiable para servicios premium de cuidado masculino. Calidad, estilo y tradición combinados.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#services">Cortes de Cabello</a></li>
+                        <li><a href="#services">Arreglo de Barba</a></li>
+                        <li><a href="#services">Afeitado con Toalla</a></li>
+                        <li><a href="#services">Cortes Infantiles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> <span class="contact-phone">(555) 123-4567</span></li>
+                        <li><i class="fas fa-envelope"></i> <span class="contact-email">info@barberia.com</span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span class="footer-address">Calle Principal 123</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <span class="business-name">Barbería</span>. Todos los derechos reservados.</p>
+                <p>Diseñado con <i class="fas fa-heart"></i> por <strong>Sirob Labs</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js?v=2.4"></script>
+    <!-- Calendly widget script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</body>
+</html>
+

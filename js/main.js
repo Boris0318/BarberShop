@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'El Patron Barbershop',
+    businessName: 'La Guardia Barbershop',
     
     // Contact Information
     phone: '(555) 123-4567',

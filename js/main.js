@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Barber Expresso',
+    businessName: 'El Patron Barbershop',
     
     // Contact Information
     phone: '(555) 123-4567',

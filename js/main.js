@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Barberia Papi Chulo',
+    businessName: 'Barber\'s Cielo Abierto',
     
     // Contact Information
     phone: '(555) 123-4567',

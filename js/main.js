@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Peluqueria Copilco',
+    businessName: 'Barberia El Club',
     
     // Contact Information
     phone: '(555) 123-4567',

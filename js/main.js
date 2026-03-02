@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Barber\'s Cielo Abierto',
+    businessName: 'Peluqueria Copilco',
     
     // Contact Information
     phone: '(555) 123-4567',

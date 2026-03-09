@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Barberia El Club',
+    businessName: 'Barberia Sr.Fígaro',
     
     // Contact Information
     phone: '(555) 123-4567',

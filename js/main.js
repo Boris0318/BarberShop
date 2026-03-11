@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Dandy\'s Barber Club México',
+    businessName: 'The Real Barbers',
     
     // Contact Information
     phone: '(555) 123-4567',

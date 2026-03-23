@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'Barberia Bisson',
+    businessName: 'Barberia Bravado',
     
     // Contact Information
     phone: '(555) 123-4567',

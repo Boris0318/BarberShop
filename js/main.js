@@ -8,7 +8,7 @@
 // ===================================
 const BARBER_CONFIG = {
     // Business Name
-    businessName: 'The Real Barbers',
+    businessName: 'Barberia Barba Blanca',
     
     // Contact Information
     phone: '(555) 123-4567',
